@@ -1,5 +1,7 @@
 # Agile-Bot
 
+![Agile-Bot](https://i.pinimg.com/originals/5a/01/08/5a01088425a3d3e35fa5d7e5495e66d0.png)
+
 ## Development
 ### First Time Set Up:
 Run: `docker-compose run web rails new . --force --database=postgresql`
