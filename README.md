@@ -1,6 +1,6 @@
 # Agile-Bot
 
-![Agile-Bot](https://i.pinimg.com/originals/5a/01/08/5a01088425a3d3e35fa5d7e5495e66d0.png)
+![Agile-Bot](https://uk.legocentric.com/data/lego-0070354-axls-rumble-maker/img/02b7656d-ace2-49bf-9349-8926dcc28d34-small.jpg)
 
 ## Development
 ### First Time Set Up:
