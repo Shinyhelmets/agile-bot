@@ -1,9 +1,28 @@
-# README
+# Agile-Bot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Development
+### First Time Set Up:
+Run: `docker-compose run web rails new . --force --database=postgresql`
 
-Things you may want to cover:
+Now that you’ve got a new Gemfile, you need to build the image again. (This, and changes to the Gemfile or the Dockerfile, should be the only times you’ll need to rebuild.)
+
+`docker-compose build`
+
+You can now boot the app:
+
+`docker-compose up`
+
+Finally, you need to create the database. In another terminal, run:
+
+`docker-compose run web rake db:create`
+
+Go to http://localhost:3000 on a web browser to see the app.
+
+- To stop the application, run `docker-compose down` in your project directory.
+- To restart the application run `docker-compose up`
+- If you make changes to the Gemfile or the Compose file to try out some different configurations, you need to rebuild. Some changes require only docker-compose up --build
+
+### Instruction that we may want to cover in the future:
 
 * Ruby version
 
@@ -20,5 +39,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
